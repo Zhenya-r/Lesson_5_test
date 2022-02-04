@@ -1,0 +1,118 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Zilla+Slab:regular,700&display=swap");
+body {
+	font-family: Montserrat, "Times New Roman", Times, serif;
+}
+
+.wrapper {
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+.pdd {
+	margin: 0px 0px 40px 0px;
+	padding: 50px 0px 0px 0px;
+}
+.pdd__title {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 46px;
+	font-weight: 700;
+	margin: 0px 0px 25px 0px;
+}
+.pdd__text {
+	text-align: justify;
+	line-height: 1.5;
+	text-indent: 40px;
+	margin: 0px 0px 20px 0px;
+}
+.important {
+	font-weight: 700;
+}
+.pdd__value {
+	font-size: 36px;
+	margin: 0px 0px 20px 0px;
+}
+.pdd__list {
+	margin: 0px 0px 20px 0px;
+}
+
+.pdd__item {
+	padding: 0px 0px 0px 30px;
+	line-height: 1.8;
+}
+
+.pdd__item span {
+	font-weight: 700;
+}
+
+.pdd__image {
+	max-width: 100%;
+}
+
+.pdd__example {
+	font-size: 36px;
+	margin: 0px 0px 20px 0px;
+}
+
+/*============================================================*/
+
+.mrg {
+	font-family: "Zilla Slab", Montserrat;
+	margin: 0px 0px 40px 0px;
+}
+.mrg__title {
+	text-transform: uppercase;
+	letter-spacing: 2;
+	text-align: right;
+
+	font-weight: 700;
+	font-size: 46px;
+	margin: 0px 0px 20px 0px;
+}
+.mrg__text {
+	max-width: 50%;
+	margin: 0px 0px 20px auto;
+	line-height: 1.5;
+	text-indent: 40px;
+}
+.mrg__syntax {
+	font-size: 48px;
+	letter-spacing: 1.5;
+	margin: 0px 0px 25px 0px;
+}
+.mrg__list {
+	padding: 0 30px;
+}
+.mrg__item {
+	list-style: circle;
+	text-align: justify;
+
+	line-height: 1.8;
+}
+
+.mrg__item span {
+	font-weight: 700;
+}
+
+/*============================================================*/
+
+.practice span {
+	display: inline-block;
+	max-width: 180px;
+	min-height: 100px;
+	text-align: center;
+	padding: 10px;
+	margin: 0px 0px 10px 0px;
+	font-size: 16px;
+	text-decoration: underline;
+	background-color: rgb(99, 212, 99);
+}
+
+.practice p {
+	margin: -20px auto 40px auto;
+	width: 200px;
+	max-height: 100px;
+	overflow: auto;
+}
