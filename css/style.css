@@ -64,7 +64,7 @@ body {
 }
 .mrg__title {
 	text-transform: uppercase;
-	letter-spacing: 2;
+	letter-spacing: 2px;
 	text-align: right;
 
 	font-weight: 700;
@@ -79,7 +79,7 @@ body {
 }
 .mrg__syntax {
 	font-size: 48px;
-	letter-spacing: 1.5;
+	letter-spacing: 1.5px;
 	margin: 0px 0px 25px 0px;
 }
 .mrg__list {
